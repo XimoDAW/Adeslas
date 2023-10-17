@@ -16,7 +16,7 @@ $fontSize: (
 
     @each $size in $fontSize {
         &-#{$index} {
-            font-size: $fontSize;
+            font-size: $size;
         }
 
         $index: $index + 1;
