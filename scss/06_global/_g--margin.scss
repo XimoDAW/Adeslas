@@ -29,10 +29,50 @@ $margins: (
     $index: 0;
 
     @each $size in $margins {
-    &-#{$index} {
-        margin: $size;
+        &-#{$index} {
+            margin: $size;
+        }
+
+        $index: $index+1;
     }
 
-    $index: $index+1;
-}
+    $index: 0;
+
+    @each $size in $margins {
+        &-left-#{$index} {
+            margin-left: $size;
+        }
+
+        $index: $index+1;
+    }
+
+    $index: 0;
+
+    @each $size in $margins {
+        &-right#{$index} {
+            margin-right: $size;
+        }
+
+        $index: $index+1;
+    }
+
+    $index: 0;
+
+    @each $size in $margins {
+        &-top-#{$index} {
+            margin-top: $size;
+        }
+
+        $index: $index+1;
+    }
+
+    $index: 0;
+
+    @each $size in $margins {
+        &-bottom-#{$index} {
+            margin-bottom: $size;
+        }
+
+        $index: $index+1;
+    }
 }

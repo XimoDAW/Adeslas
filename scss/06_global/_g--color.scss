@@ -1,0 +1,30 @@
+$color: (
+    --primary-color: #009DDD,
+    --secondary-color: #ffffff,
+    --clear-color: #bce0fd,
+);
+
+$backgroundColor: (
+    --color-title: #3d3d3d,
+    --color-text: #848484,
+);
+
+
+.g--color {
+    $index: 0;
+    
+    @each $size in $color {
+        
+        &-#{$color} {
+            color: $color;
+        }
+    }
+}
+
+.g--background-color {
+    @each $size in $backgroundColor {
+        &-#{$backgroundColor} {
+            background-color: $backgroundColor;
+        }
+    }
+}
