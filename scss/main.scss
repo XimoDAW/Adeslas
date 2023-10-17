@@ -1,2 +1,13 @@
-@import "./06_global/g--padding";
-@import "./06_global/g--margin";
+@import
+"01_utilities/variables";
+
+@import
+"03_layout/l-cards";
+
+@import
+"04_components/c-card";
+
+@import 
+"06_global/g--padding",
+"06_global/g--margin",
+"06_global/g--background-colors";

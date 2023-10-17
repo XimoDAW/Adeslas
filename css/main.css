@@ -1,0 +1,215 @@
+:root {
+  --color-primary: rgb(0, 157, 221);
+  --color-secondary: #c30080;
+  --color-white: white;
+  --color-grey1: rgb(102, 102, 102);
+  --color-grey2: #3d3d3d;
+}
+
+.l-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.c-card {
+  margin-top: 40px;
+  width: 16%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 20px;
+  border: 1px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  justify-content: space-between;
+  letter-spacing: 0.24px;
+}
+.c-card__button-container {
+  display: block;
+}
+.c-card__button {
+  --c-card__button-background-color: var(--color-primary);
+  --c-card__button-color: var(--color-white);
+  display: inline-block;
+  font-weight: bold;
+  background-color: var(--c-card__button-background-color);
+  color: var(--c-card__button-color);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.g--padding-0 {
+  padding: 0px;
+}
+.g--padding-1 {
+  padding: 4px;
+}
+.g--padding-2 {
+  padding: 6px;
+}
+.g--padding-3 {
+  padding: 8px;
+}
+.g--padding-4 {
+  padding: 10px;
+}
+.g--padding-5 {
+  padding: 12px;
+}
+.g--padding-6 {
+  padding: 16px;
+}
+.g--padding-7 {
+  padding: 20px;
+}
+.g--padding-8 {
+  padding: 24px;
+}
+.g--padding-9 {
+  padding: 32px;
+}
+.g--padding-10 {
+  padding: 40px;
+}
+.g--padding-11 {
+  padding: 48px;
+}
+.g--padding-12 {
+  padding: 64px;
+}
+.g--padding-13 {
+  padding: 80px;
+}
+.g--padding-14 {
+  padding: 96px;
+}
+.g--padding-15 {
+  padding: 128px;
+}
+.g--padding-16 {
+  padding: 160px;
+}
+.g--padding-17 {
+  padding: 192px;
+}
+.g--padding-18 {
+  padding: 224px;
+}
+.g--padding-19 {
+  padding: 256px;
+}
+.g--padding-20 {
+  padding: 320px;
+}
+.g--padding-21 {
+  padding: 480px;
+}
+.g--padding-22 {
+  padding: 640px;
+}
+
+.g--margin-0 {
+  margin: 0px;
+}
+.g--margin-1 {
+  margin: 4px;
+}
+.g--margin-2 {
+  margin: 6px;
+}
+.g--margin-3 {
+  margin: 8px;
+}
+.g--margin-4 {
+  margin: 10px;
+}
+.g--margin-5 {
+  margin: 12px;
+}
+.g--margin-6 {
+  margin: 16px;
+}
+.g--margin-7 {
+  margin: 20px;
+}
+.g--margin-8 {
+  margin: 24px;
+}
+.g--margin-9 {
+  margin: 32px;
+}
+.g--margin-10 {
+  margin: 40px;
+}
+.g--margin-11 {
+  margin: 48px;
+}
+.g--margin-12 {
+  margin: 64px;
+}
+.g--margin-13 {
+  margin: 80px;
+}
+.g--margin-14 {
+  margin: 96px;
+}
+.g--margin-15 {
+  margin: 128px;
+}
+.g--margin-16 {
+  margin: 160px;
+}
+.g--margin-17 {
+  margin: 192px;
+}
+.g--margin-18 {
+  margin: 224px;
+}
+.g--margin-19 {
+  margin: 256px;
+}
+.g--margin-20 {
+  margin: 320px;
+}
+.g--margin-21 {
+  margin: 480px;
+}
+.g--margin-22 {
+  margin: 640px;
+}
+
+.g--background-primary {
+  background-color: var(--color-primary);
+}
+
+.g--background-secondary {
+  background-color: var(--color-secondary);
+}
+
+.g--background-white {
+  background-color: var(--color-white);
+}
+
+.g--color-primary {
+  color: var(--color-primary);
+}
+
+.g--color-secondary {
+  color: var(--color-secondary);
+}
+
+.g--color-white {
+  color: var(--color-white);
+}
+
+.g--color-grey1 {
+  color: var(--color-grey1);
+}
+
+.g--color-grey2 {
+  color: var(--color-grey2);
+}
+
+/*# sourceMappingURL=main.css.map */
