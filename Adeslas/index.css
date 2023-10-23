@@ -1,0 +1,94 @@
+:root{
+    --color-primary: #009ddd;
+    --color-secundary: #c30080;
+
+    --color-white: #FFFFFF;
+}
+.g--background-white{
+    background-color:var(--color-white);
+}
+
+.g--color-primary{
+    color:var(--color-primary);
+}
+
+.g--background-secundary{
+    background-color: var(--color-secundary);
+}
+
+.g--color-white{
+    color:var(--color-white);
+
+}
+
+.g--borderColor-white{
+    border-color: var(--color-white);
+}
+
+
+.g--fontFamily{
+    font-family: Roboto, sans-serif;
+}
+
+.g--margin{
+    margin: 20px;
+}
+.c-card{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.c-card__left{
+    --c-card__left:var(--color-primary);
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column; 
+    width: 60%;
+    height: 380px;
+    background-color:var( --c-card__left);
+    display: inline-block;
+}
+
+.c-card__right{
+    background-image: url(calcula-el-precio-seguro-adeslas.jpg.webp);
+    background-size: cover;
+    background-position: right; 
+    width: 60%; 
+    height: 380px;
+
+}
+
+.c-card__subtitle{
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.c-card__title{
+    margin-top: 10px; 
+}
+
+.c-card__text{
+    margin-right: 80px;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+.c-card__button{
+
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 20px 20px;
+   
+    
+}
+
+
+
+
+
+
+
