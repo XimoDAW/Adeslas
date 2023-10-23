@@ -1,0 +1,167 @@
+$primario: (
+    #011619,
+    #013F4B,
+    #01627A,
+    #0082AD,
+    #009DDB,
+    #0FAFFF,
+    #3EB8FE,
+    #72C3FD,
+    #A1D3FD
+);
+$secundario: (
+    #190114,
+    #410132,
+    #700152,
+    #990069,
+    #C2007E,
+    #EB008D,
+    #FE1B9B,
+    #FC45A4,
+    #FB6FB3
+);
+$blanco: (
+    #FFF7F5,
+    #FDF8F7,
+    #FDFCFC,
+    #FDFCFC,
+    #FCFCFC,
+    #FDFCFC,
+    #FFFFFF,
+    #FFFFFF,
+    #FFFFFF
+);
+$gris: (
+    #190501,
+    #270F0C,
+    #2F1F1D,
+    #332E2E,
+    #3D3D3D,
+    #4E4646,
+    #6C4542,
+    #943B2E,
+    #D62805
+);
+
+$colores: (
+    "primarios":$primario,
+    "secundarios": $secundario,
+    "blancos": $blanco,
+    "grises": $gris,
+);
+
+.g--color {
+    $index: 1;
+    $value: map-get($colores, primarios);
+
+    @each $color in $value {
+        &-primario-#{$index} {
+            color: $color;
+        }
+
+        @if $index<=length($primario)-1 {
+            $index: $index + 1;
+            $value: nth($primario, $index);
+        }
+    }
+
+    $index: 1;
+    $value: map-get($colores, secundarios);
+
+    @each $color in $value {
+        &-secundario-#{$index} {
+            color: $color;
+        }
+
+        @if $index<=length($secundario)-1 {
+            $index: $index + 1;
+            $value: nth($secundario, $index);
+        }
+    }
+    
+    $index: 1;
+    $value: map-get($colores, blancos);
+
+    @each $color in $value {
+        &-blanco-#{$index} {
+            color: $color;
+        }
+
+        @if $index<=length($blanco)-1 {
+            $index: $index + 1;
+            $value: nth($blanco, $index);
+        }
+    }
+
+    $index: 1;
+    $value: map-get($colores, grises);
+
+    @each $color in $value {
+        &-gris-#{$index} {
+            color: $color;
+        }
+
+        @if $index<=length($gris)-1 {
+            $index: $index + 1;
+            $value: nth($gris, $index);
+        }
+    }
+}
+
+.g--background-color {
+    $index: 1;
+    $value: map-get($colores, primarios);
+
+    @each $color in $value {
+        &-primario-#{$index} {
+            background-color: $color;
+        }
+
+        @if $index<=length($primario)-1 {
+            $index: $index + 1;
+            $value: nth($primario, $index);
+        }
+    }
+
+    $index: 1;
+    $value: map-get($colores, secundarios);
+
+    @each $color in $value {
+        &-secundario-#{$index} {
+            background-color: $color;
+        }
+
+        @if $index<=length($secundario)-1 {
+            $index: $index + 1;
+            $value: nth($secundario, $index);
+        }
+    }
+    
+    $index: 1;
+    $value: map-get($colores, blancos);
+
+    @each $color in $value {
+        &-blanco-#{$index} {
+            background-color: $color;
+        }
+
+        @if $index<=length($blanco)-1 {
+            $index: $index + 1;
+            $value: nth($blanco, $index);
+        }
+    }
+
+    $index: 1;
+    $value: map-get($colores, grises);
+
+    @each $color in $value {
+        &-gris-#{$index} {
+            background-color: $color;
+        }
+
+        @if $index<=length($gris)-1 {
+            $index: $index + 1;
+            $value: nth($gris, $index);
+        }
+    }
+}

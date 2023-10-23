@@ -1,0 +1,32 @@
+.c-card {
+    margin-top: 40px;
+    width: 16%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 20px;
+    border: 1px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+    justify-content: space-between;
+    letter-spacing: 0.24px;
+
+    &__button-container {
+       display: block;
+    }
+    &__button {
+        --c-card__button-background-color: var(--color-primary);
+        --c-card__button-color: var(--color-white);
+
+        display: inline-block;
+
+        font-weight: bold;
+        background-color: var(--c-card__button-background-color);
+        color: var(--c-card__button-color);
+
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+}
