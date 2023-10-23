@@ -1,32 +1,30 @@
 .g--font-size-0 {
-  font-size: 12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px;
+  font-size: 12px;
 }
 .g--font-size-1 {
-  font-size: 12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px;
+  font-size: 14px;
 }
 .g--font-size-2 {
-  font-size: 12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px;
+  font-size: 16px;
 }
 .g--font-size-3 {
-  font-size: 12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px;
+  font-size: 18px;
 }
 .g--font-size-4 {
-  font-size: 12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px;
+  font-size: 20px;
 }
 .g--font-size-5 {
-  font-size: 12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px;
+  font-size: 24px;
 }
 .g--font-size-6 {
-  font-size: 12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px;
+  font-size: 30px;
 }
 .g--font-size-7 {
-  font-size: 12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px;
+  font-size: 36px;
 }
 .g--font-size-8 {
-  font-size: 12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px;
+  font-size: 48px;
 }
 .g--font-size-9 {
-  font-size: 12px, 14px, 16px, 18px, 20px, 24px, 30px, 36px, 48px, 64px;
-}
-
-/*# sourceMappingURL=fontSize.css.map */
+  font-size: 64px;
+}/*# sourceMappingURL=fontSize.css.map */

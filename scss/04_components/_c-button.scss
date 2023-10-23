@@ -1,10 +1,11 @@
 .c-button{
-
     background: none;
     border: none;
     text-decoration-line: underline;
 
-
+    &--parte5 {
+        text-decoration-line: none;
+    }
 }
 
 .c-button:hover{
