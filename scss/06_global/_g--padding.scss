@@ -40,7 +40,7 @@ $paddings: (
 
     @each $size in $paddings {
         &-left-#{$index} {
-            margin-left: $size;
+            padding-left: $size;
         }
 
         $index: $index+1;
@@ -50,7 +50,7 @@ $paddings: (
 
     @each $size in $paddings {
         &-right-#{$index} {
-            margin-right: $size;
+            padding-right: $size;
         }
 
         $index: $index+1;
@@ -60,7 +60,7 @@ $paddings: (
 
     @each $size in $paddings {
         &-top-#{$index} {
-            margin-top: $size;
+            padding-top: $size;
         }
 
         $index: $index+1;
@@ -70,7 +70,7 @@ $paddings: (
 
     @each $size in $paddings {
         &-bottom-#{$index} {
-            margin-bottom: $size;
+            padding-bottom: $size;
         }
 
         $index: $index+1;
