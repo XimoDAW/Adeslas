@@ -49,7 +49,7 @@ $paddings: (
     $index: 0;
 
     @each $size in $paddings {
-        &-right-#{$index} {
+        &-right#{$index} {
             margin-right: $size;
         }
 
